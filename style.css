@@ -1,0 +1,117 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Colors */
+:root {
+    --very-dark-greyish-blue: hsl(217, 19%, 35%);
+    --desaturated-dark-blue: hsl(214, 17%, 51%);
+    --greyish-blue: hsl(212, 23%, 69%);
+    --light-greyish-blue: hsl(210, 46%, 95%);
+}
+
+/* General */
+
+body {
+    background-color: var(--light-greyish-blue);
+}
+
+.largest-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.sub-container {
+    display: flex;
+    box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+}
+
+.blog-image {
+    border-radius: 10px 0 0 10px;
+    width: 285px;
+    height: 281px;
+    object-fit: cover;
+    object-position: 0 100%;
+}
+
+.article-preview {
+    background-color: white;
+    padding: 40px;
+    border-radius: 0 10px 10px 0;
+    width: 446px;
+    height: 281px;
+}
+
+.author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author-info {
+    display: flex;
+}
+
+.avatar {
+    border-radius: 100%;
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.share-icon {
+    background-color: var(--light-greyish-blue);
+    border-radius: 100%;
+    padding: 7px;
+}
+
+h1 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    color: var(--very-dark-greyish-blue);
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+h2 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    color: var(--very-dark-greyish-blue);
+    font-size: 14px;
+}
+
+p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: var(--desaturated-dark-blue);
+    margin-bottom: 10px;
+}
+
+/* Attribution */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    color: var(--very-dark-greyish-blue);
+    margin-top: 20px;
+}
+
+.attribution a {
+    color: var(--very-dark-greyish-blue);
+}
