@@ -184,16 +184,17 @@ p {
         border-radius: 0 0 10px 10px;
         height: auto;
         padding: 40px 40px 22px 40px;
+        width: 375px;
     }
 
     .sub-container {
         flex-direction: column;
-        width: 375px;
     }
 
     .blog-image {
         border-radius: 10px 10px 0 0;
-        width: 446px;
+        /* width: 446px; */
+        width: 375px;
         object-position: 0 30%;   
     }
 
