@@ -188,6 +188,7 @@ p {
 
     .sub-container {
         flex-direction: column;
+        width: 375px;
     }
 
     .blog-image {
