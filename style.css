@@ -184,7 +184,7 @@ p {
         border-radius: 0 0 10px 10px;
         height: auto;
         padding: 40px 40px 22px 40px;
-        width: 375px;
+        width: 329px;
     }
 
     .sub-container {
@@ -193,8 +193,7 @@ p {
 
     .blog-image {
         border-radius: 10px 10px 0 0;
-        /* width: 446px; */
-        width: 375px;
+        width: 329px;
         object-position: 0 30%;   
     }
 
