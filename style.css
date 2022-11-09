@@ -179,7 +179,7 @@ p {
 }
 
 /* Media Queries */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
     .article-preview {
         border-radius: 0 0 10px 10px;
         height: auto;
@@ -204,9 +204,9 @@ p {
     }
 
     .share-modal-container {
-        top: 240px;
+        top: 290px;
         right: 0;
-        width: 446px;
+        width: 329px;
         background-color: var(--very-dark-greyish-blue);
         border-radius: 0 0 10px 10px;
         justify-content: flex-start;
