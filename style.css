@@ -179,7 +179,7 @@ p {
 }
 
 /* Media Queries */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 414px) {
     .article-preview {
         border-radius: 0 0 10px 10px;
         height: auto;
